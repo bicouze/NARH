@@ -14,7 +14,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
         {
           title: "Executive Business Center",
           description: "24/7 access to our premium business center with private meeting rooms, video conferencing, and executive assistant services.",
-          imageUrl: "/src/images/coworking.jpg",
+          imageUrl: "./src/images/coworking.jpg",
           duration: "24 hours",
           location: "Marriott Hotel",
           price: 75,
@@ -24,7 +24,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
         {
           title: "Corporate Networking Dinner",
           description: "Join Montreal's business leaders for an exclusive networking dinner at the award-winning Five Sails restaurant.",
-          imageUrl: "/src/images/restaurant.jpg",
+          imageUrl: "./src/images/restaurant.jpg",
           duration: "3 hours",
           location: "Five Sails Restaurant",
           price: 200,
@@ -34,7 +34,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
         {
           title: "Executive Spa Package",
           description: "Unwind with our premium spa package including massage, facial, and access to the wellness center.",
-          imageUrl: "/src/images/spa.jpg",
+          imageUrl: "./src/images/spa.jpg",
           duration: "3 hours",
           location: "Marriott Spa",
           price: 250,
@@ -44,7 +44,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
         {
           title: "Private City Tour",
           description: "Exclusive chauffeur-driven tour of Montreal's business district and cultural landmarks.",
-          imageUrl: "/src/images/city_tour.jpg",
+          imageUrl: "./src/images/city_tour.jpg",
           duration: "4 hours",
           location: "Montreal",
           price: 180,
@@ -57,7 +57,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
       {
         title: "Old Montreal Walking Tour",
         description: "Discover the charm and history of Old Montreal with a guided walking tour through cobblestone streets, historic sites, and architectural landmarks.",
-        imageUrl: "/src/images/walking_tour.jpg",
+        imageUrl: "./src/images/walking_tour.jpg",
         duration: "2.5 hours",
         location: "Old Montreal",
         price: 45,
@@ -67,7 +67,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
       {
         title: "La Grande Roue Experience",
         description: "Enjoy breathtaking views of Montreal from Canada's tallest observation wheel, offering spectacular city and river vistas.",
-        imageUrl: "/src/images/grande_roue.jpg",
+        imageUrl: "./src/images/grande_roue.jpg",
         duration: "1 hour",
         location: "Old Port",
         price: 25,
@@ -77,7 +77,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
       {
         title: "Mount Royal Park Adventure",
         description: "Explore Montreal's iconic mountain park with guided hiking, scenic lookouts, and stunning city views. Visit the famous Mount Royal Cross and Beaver Lake.",
-        imageUrl: "/src/images/mount_royal.jpg",
+        imageUrl: "./src/images/mount_royal.jpg",
         duration: "3 hours",
         location: "Mount Royal",
         price: 40,
@@ -87,7 +87,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
       {
         title: "Museum of Fine Arts",
         description: "Explore one of Canada's most prestigious art institutions, featuring an extensive collection of international and Canadian art.",
-        imageUrl: "/src/images/museum.jpeg",
+        imageUrl: "./src/images/museum.jpeg",
         duration: "3 hours",
         location: "Downtown Montreal",
         price: 35,
@@ -97,7 +97,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
       {
         title: "Food Tour: Flavors of Montreal",
         description: "Savor Montreal's culinary delights with tastings of iconic dishes including bagels, smoked meat, and local specialties.",
-        imageUrl: "/src/images/restaurant.jpg",
+        imageUrl: "./src/images/restaurant.jpg",
         duration: "3 hours",
         location: "Various Locations",
         price: 75,
@@ -107,7 +107,7 @@ export function ActivitiesPage({ onBack, character }: ActivitiesPageProps) {
       {
         title: "Botanical Garden & Biodome",
         description: "Visit Montreal's stunning botanical gardens and explore diverse ecosystems in the Biodome, from tropical rainforest to polar regions.",
-        imageUrl: "/src/images/garden.jpg",
+        imageUrl: "./src/images/garden.jpg",
         duration: "4 hours",
         location: "East Montreal",
         price: 55,
