@@ -10,7 +10,7 @@ interface CompensationDetailsProps {
   onUpgradeSelect: (upgrade: 'standard' | 'deluxe' | 'suite') => void;
   onShowActivities: () => void;
   onBack: () => void;
-  upgrades: Record<string, { price: number; features: string[] }>;
+  upgrades: Record<string, { price: number; features: string[]; imageUrl: string }>;
 }
 
 export function CompensationDetails({
@@ -51,6 +51,7 @@ export function CompensationDetails({
                     title={`${key.charAt(0).toUpperCase() + key.slice(1)} Room`}
                     price={option.price}
                     features={option.features}
+                    imageUrl={option.imageUrl}
                     selected={selectedUpgrade === key}
                     onSelect={() => onUpgradeSelect(key as 'standard' | 'deluxe' | 'suite')}
                   />

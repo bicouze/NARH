@@ -23,7 +23,8 @@ export default function App() {
             'Executive lounge access',
             'Priority check-in',
             'Welcome drink'
-          ]
+          ],
+          imageUrl: "/images/deluxe.jpg"
         },
         suite: { 
           price: 150, 
@@ -35,7 +36,8 @@ export default function App() {
             'Late checkout 4pm',
             'Welcome champagne',
             'Private workspace'
-          ]
+          ],
+          imageUrl: "/images/suite.jpg"
         },
       };
     }
@@ -47,7 +49,8 @@ export default function App() {
           'City view',
           'Standard check-in',
           'Checkout 11am'
-        ]
+        ],
+        imageUrl: "/images/standard.jpg"
       },
       deluxe: { 
         price: 50, 
@@ -56,7 +59,8 @@ export default function App() {
           'High floor',
           'Lounge access',
           'Late checkout 2pm'
-        ]
+        ],
+        imageUrl: "/images/deluxe.jpg"
       },
       suite: { 
         price: 120, 
@@ -65,7 +69,8 @@ export default function App() {
           'Executive lounge',
           'Welcome drink',
           'Late checkout 3pm'
-        ]
+        ],
+        imageUrl: "/images/suite.jpg"
       },
     };
   };
