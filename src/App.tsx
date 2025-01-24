@@ -14,7 +14,9 @@ export default function App() {
   
   const getUpgradeOptions = () => {
 
-    const deluxePrice = selectedCharacter === "Ms. Samantha Jones" ? 0 : 50;
+    const isJones = selectedCharacter === "Ms. Samantha Jones";
+    const deluxePrice = isJones ? 0 : 50;
+    const deluxeNote = isJones ? 'As a valued business traveler, you have been automatically upgraded to our Deluxe Room at no additional cost.' : '';
 
     return {
       standard: { 
@@ -36,7 +38,7 @@ export default function App() {
           'Late checkout 2pm'
         ],
         imageUrl: "/images/deluxe.jpg",
-        note: 'As a valued business traveler, you have been automatically upgraded to our Deluxe Room at no additional cost.'
+        note: deluxeNote
       },
       suite: { 
         price: 120, 
