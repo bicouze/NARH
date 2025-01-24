@@ -37,10 +37,10 @@ export function UpgradeOption({ title, price, features, onSelect, selected, imag
               </div>
               <span className="font-medium text-gray-900">{title}</span>
             </div>
-            <span className="font-medium text-blue-600">{price > 0 ? `+$${price}` : 'Included'}</span>
+            <span className="font-medium text-blue-500">{price > 0 ? `+$${price}` : 'Included'}</span>
           </div>
           {note && (
-            <div className="text-sm text-blue-500">
+            <div className="text-sm text-blue-500 mb-4">
               {note}
             </div>
           )}
