@@ -16,7 +16,7 @@ export default function App() {
 
     const isJones = selectedCharacter === "Ms. Samantha Jones";
     const deluxePrice = isJones ? 0 : 50;
-    const deluxeNote = isJones ? 'As a valued customer, you have been upgraded to our Deluxe Room at no extra cost.' : '';
+    const deluxeNote = isJones ? 'As a valued airline customer, you have been upgraded to the Deluxe Room at no extra cost.' : '';
 
     return {
       standard: { 
