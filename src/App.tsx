@@ -13,6 +13,9 @@ export default function App() {
   const [showCompensation, setShowCompensation] = useState(false);
   
   const getUpgradeOptions = () => {
+
+    const deluxePrice = selectedCharacter === "Ms. Samantha Jones" ? 0 : 50;
+
     return {
       standard: { 
         price: 0, 
@@ -25,7 +28,7 @@ export default function App() {
         imageUrl: "/images/standard.jpg"
       },
       deluxe: { 
-        price: 50, 
+        price: deluxePrice, 
         features: [
           'King bed',
           'High floor',
