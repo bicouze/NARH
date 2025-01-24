@@ -91,7 +91,7 @@ export function CompensationDetails({
           onClick={onShowActivities}
           className="w-full bg-blue-600 text-white py-3 px-6 rounded-xl font-semibold hover:bg-blue-700 transition-colors"
         >
-          Accept Package {selectedUpgrade !== 'standard' && selectedUpgrade !== 'deluxe' && `(+$${upgrades[selectedUpgrade].price})`}
+          Accept Package {selectedUpgrade !== 'standard' && upgrades[selectedUpgrade].price > 0 && `(+$${upgrades[selectedUpgrade].price})`}
         </button>
       </div>
     </div>
