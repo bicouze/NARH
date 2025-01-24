@@ -42,7 +42,7 @@ export function CancellationNotice({
               We regret to inform you that due to operational constraints, <b>your flight 6X123 from Montreal to Vancouver scheduled for this evening has unfortunately been cancelled</b>.
               </p>
               <p className="text-gray-600 mt-2">
-              We understand the inconvenience this may cause and <br>we have automatically rebooked you on tomorrow's flight 6X122. To ensure your comfort, we have arranged a comprehensive care package, including hotel accommodation and meals that you'll find hereafter.</br> Additionally, we have curated a selection of local experiences to make the best of your time in Montreal.
+              We understand the inconvenience this may cause and <b>we have automatically rebooked you on tomorrow's flight 6X122. To ensure your comfort, we have arranged a comprehensive care package, including hotel accommodation and meals that you'll find hereafter.</b> Additionally, we have curated a selection of local experiences to make the best of your time in Montreal.
               </p>
               <p className="text-gray-600 mt-2">
                 Thank you for your understanding and patience. If you have any questions or need further assistance, please do not hesitate to contact us.
