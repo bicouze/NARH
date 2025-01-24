@@ -39,10 +39,13 @@ export function CancellationNotice({
             <div>
               <h2 className="text-lg font-semibold text-gray-900">Dear {character},</h2>
               <p className="text-gray-600 mt-2">
-                Due to operational constraints, <b>your flight 6X123 from Montreal to Vancouver scheduled for this evening has unfortunately been cancelled</b>.
+              We regret to inform you that due to operational constraints, <b>your flight 6X123 from Montreal to Vancouver scheduled for this evening has unfortunately been cancelled</b>.
               </p>
               <p className="text-gray-600 mt-2">
-                While we understand the difficulty it may cause you, <b>we have automatically rebooked you on tomorrow's flight 6X122 and have prepared comprehensive care package for your comfort, including hotel accommodation and meals that you'll find hereafter.</b> You will also be suggested local experiences to make the best of your time in Montreal.
+              We understand the inconvenience this may cause and <br>we have automatically rebooked you on tomorrow's flight 6X122. To ensure your comfort, we have arranged a comprehensive care package, including hotel accommodation and meals that you'll find hereafter.</br> Additionally, we have curated a selection of local experiences to make the best of your time in Montreal.
+              </p>
+              <p className="text-gray-600 mt-2">
+                Thank you for your understanding and patience. If you have any questions or need further assistance, please do not hesitate to contact us.
               </p>
             </div>
           </div>
