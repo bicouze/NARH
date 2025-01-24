@@ -8,9 +8,10 @@ interface UpgradeOptionProps {
   onSelect: () => void;
   selected: boolean;
   imageUrl: string;
+  note?: string;
 }
 
-export function UpgradeOption({ title, price, features, onSelect, selected, imageUrl }: UpgradeOptionProps) {
+export function UpgradeOption({ title, price, features, onSelect, selected, imageUrl, note }: UpgradeOptionProps) {
   return (
     <div 
       className={`p-4 rounded-lg border cursor-pointer transition-all ${
@@ -38,6 +39,11 @@ export function UpgradeOption({ title, price, features, onSelect, selected, imag
             </div>
             <span className="font-medium text-blue-600">{price > 0 ? `+$${price}` : 'Included'}</span>
           </div>
+          {note && (
+            <div className="mb-3 text-sm text-emerald-600 bg-emerald-50 p-2 rounded-lg">
+              {note}
+            </div>
+          )}
           <div className="text-sm text-gray-600 grid grid-cols-2 gap-x-4 gap-y-1">
             {features.map((feature, index) => (
               <div key={index} className="flex items-center gap-1">

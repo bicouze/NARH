@@ -10,7 +10,7 @@ interface CompensationDetailsProps {
   onUpgradeSelect: (upgrade: 'standard' | 'deluxe' | 'suite') => void;
   onShowActivities: () => void;
   onBack: () => void;
-  upgrades: Record<string, { price: number; features: string[]; imageUrl: string }>;
+  upgrades: Record<string, { price: number; features: string[]; imageUrl: string; note?: string }>;
 }
 
 export function CompensationDetails({

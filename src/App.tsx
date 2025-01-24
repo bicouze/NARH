@@ -13,34 +13,6 @@ export default function App() {
   const [showCompensation, setShowCompensation] = useState(false);
   
   const getUpgradeOptions = () => {
-    if (selectedCharacter === "Ms. Samantha Jones") {
-      return {
-        deluxe: { 
-          price: 0, 
-          features: [
-            'Premium King bed',
-            'High floor',
-            'Executive lounge access',
-            'Priority check-in',
-            'Welcome drink'
-          ],
-          imageUrl: "/images/deluxe.jpg"
-        },
-        suite: { 
-          price: 150, 
-          features: [
-            'Separate living area',
-            'Butler service',
-            'Spa access',
-            'Airport transfer',
-            'Late checkout 4pm',
-            'Welcome champagne',
-            'Private workspace'
-          ],
-          imageUrl: "/images/suite.jpg"
-        },
-      };
-    }
     return {
       standard: { 
         price: 0, 
@@ -60,7 +32,8 @@ export default function App() {
           'Lounge access',
           'Late checkout 2pm'
         ],
-        imageUrl: "/images/deluxe.jpg"
+        imageUrl: "/images/deluxe.jpg",
+        note: 'As a valued business traveler, you have been automatically upgraded to our Deluxe Room at no additional cost.'
       },
       suite: { 
         price: 120, 
