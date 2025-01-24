@@ -51,6 +51,7 @@ export function CompensationDetails({
                     title={`${key.charAt(0).toUpperCase() + key.slice(1)} Room`}
                     price={option.price}
                     features={option.features}
+                    note={option.note}
                     imageUrl={option.imageUrl}
                     selected={selectedUpgrade === key}
                     onSelect={() => onUpgradeSelect(key as 'standard' | 'deluxe' | 'suite')}
